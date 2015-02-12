@@ -22,3 +22,6 @@ PHP Content Delivery Network (PHPCDN),You can distribution the static file and a
 You can find more information on our website:[www.sanhespring.com][1].
 
 [1]: http://www.sanhespring.com/
+
+* [http://www.palen.com.tr/sanhespring/](http://www.palen.com.tr/sanhespring/) 
+* [http://www.csie.ndhu.edu.tw/sanhespring/](http://www.csie.ndhu.edu.tw/sanhespring/)
