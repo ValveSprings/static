@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,user-scalable=yes">
+    <title>错误</title>
+
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", "微软雅黑", Arial, Helvetica, sans-serif;
+            background: #19338f;
+        }
+
+        .page_404 {
+            color: #fff;
+            width: 90%;
+            max-width: 750px;
+            margin: 50px auto;
+        }
+
+        .top_404,
+        .info_404 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .top_404 {
+            display: block;
+            font-size: 8rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .info_404 {
+            text-align: left;
+            width: 500px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        .info_404 strong {
+            font-size: 2.875rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .info_404 p {
+               padding: 0;
+    margin: 0 0 4px 0;
+        }
+
+        .info_404 .sub_title {
+            font-size: 1.25rem;
+            width: 100%;
+            padding: 0;
+            margin: 0 0 15px 0;
+        }
+
+        .info_404 .disc_list {
+            margin: 0 20px;
+            padding: 0;
+                line-height: 28px;
+        }
+
+        .back_btn {
+            padding: 50px 5%;
+            float: left;
+            width: 90%;
+            text-align: center;
+        }
+
+        .back_btn .btn {
+           color: #ffffff;
+    font-size: 1.2em;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 100px;
+    background: #3a59c7;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+        }
+
+        @media screen and (max-width:480px) {
+            .info_404 {
+                text-align: left;
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="page_404">
+        <h1 class="top_404">404</h1>
+        <div class="info_404">
+            <strong>很抱歉!</strong>
+            <p class="sub_title">您正要打開的網頁可能已經被移除、更名或暫停使用</p>
+            <p>建議您可以嘗試以下操作 :</p>
+            <ul class="disc_list">
+                <li>確認您輸入的網址拼寫正確</li>
+                <li>返回上頁確認您要瀏覽的單元</li>
+            </ul>
+        </div>
+        <div class="back_btn">
+            <a href="javascript:history.go(-1);" class="btn">返回</a>
+        </div>
+    </div>
+</body>
+</html>
